@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.App {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+body {
+  /* background: radial-gradient(circle at left, #ff0404d7, #2b0f0ff3); */
+  background-color: #121212;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+#hero {
+  font-size: 2em;
+  display: block;
+  background: #121212;
+  border-bottom-left-radius: 0.5em;
+  height: 1.5em;
+  text-shadow: 2px 2px gray;
+  margin: 0;
+  margin-top: 0.3em;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+button {
+  display: inline-block;
+  cursor: pointer;
+  margin: 1em;
+  margin-top: 1em;
+  padding: 1em;
+  border-radius: 0.8em;
+  border: 2px black solid;
+  color: white;
+  background-color: black;
+  font-size: 1em;
+  box-shadow: 2px 5px 8px 2px red;
+}
+#card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7em;
+  padding: 1.8em 1em;
+  /* padding-top: 4em; */
+  border-radius: 1em;
+  width: 60%;
+  height: 20em;
+  background: radial-gradient(circle at center, #ff0404d7, #6e0808f3);
+}
+#spec {
+  display: block;
+  margin: 1.5em;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  /* border-radius: 0.5em; */
+  width: 80%;
+}
+footer {
+  padding: 2em;
+  margin-top: 7em;
+}
+a {
+  color: white;
+}
